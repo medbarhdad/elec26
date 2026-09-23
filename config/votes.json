@@ -1,0 +1,87 @@
+{
+  "description": "Voix obtenues par parti dans les circonscriptions locales.",
+  "years": [
+    2021,
+    2016
+  ],
+  "parties": [
+    {
+      "code": "RNI",
+      "name": "Rassemblement National des Indépendants",
+      "2021": 2099036,
+      "2016": 558875
+    },
+    {
+      "code": "PAM",
+      "name": "Parti Authenticité et Modernité",
+      "2021": 1400122,
+      "2016": 1205444
+    },
+    {
+      "code": "PI",
+      "name": "Parti de l'Istiqlal",
+      "2021": 1278420,
+      "2016": 621280
+    },
+    {
+      "code": "USFP",
+      "name": "Union Socialiste des Forces Populaires",
+      "2021": 598293,
+      "2016": 367622
+    },
+    {
+      "code": "MP",
+      "name": "Mouvement Populaire",
+      "2021": 534292,
+      "2016": 409085
+    },
+    {
+      "code": "UC",
+      "name": "Union Constitutionnelle",
+      "2021": 418679,
+      "2016": 268813
+    },
+    {
+      "code": "PPS",
+      "name": "Parti du Progrès et du Socialisme",
+      "2021": 387869,
+      "2016": 279226
+    },
+    {
+      "code": "PJD",
+      "name": "Parti de la Justice et du Développement",
+      "2021": 322758,
+      "2016": 1571659
+    },
+    {
+      "code": "MDS",
+      "name": "Mouvement Démocratique et Social",
+      "2021": 126399,
+      "2016": 74472
+    },
+    {
+      "code": "AGD",
+      "name": "Parti de l’Action",
+      "2021": 83130,
+      "2016": 139793
+    },
+    {
+      "code": "FFD",
+      "name": "Front des Forces Démocratiques",
+      "2021": 70218,
+      "2016": 51945
+    },
+    {
+      "code": "PSU",
+      "name": "Alliance de la Gauche",
+      "2021": 60313,
+      "2016": null
+    },
+    {
+      "code": "Autres",
+      "name": "Autres",
+      "2021": 208976,
+      "2016": 242338
+    }
+  ]
+}

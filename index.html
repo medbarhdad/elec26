@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#ffffff">
+<title>Législatives au Maroc : la participation en dents de scie</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=Inter:wght@400;500;600&family=Oswald:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div class="site-splash" id="site-splash" role="status" aria-label="Chargement du site">
+  <div class="splash-inner">
+    <p class="splash-kicker">Élections 2026</p>
+    <div class="splash-urn" aria-hidden="true">
+      <div class="urn-top"><i></i></div>
+      <div class="urn-band"></div>
+      <div class="urn-body">
+        <p class="urn-tag">Exemple</p>
+        <p class="urn-line">INSCRITS : <b id="splash-inscrits">15&#8239;801&#8239;162</b></p>
+        <p class="urn-line">VOTANTS : <b id="splash-votants" class="wait">en attente</b></p>
+        <div class="hero-num" id="splash-estimate">--,-&nbsp;%</div>
+        <p class="urn-delta" id="splash-delta">Rappel : 50,18 % en 2021</p>
+      </div>
+    </div>
+    <p class="splash-note">Le site va s’afficher dans un instant</p>
+  </div>
+</div>
+<main>
+  <header class="hero">
+    <div class="masthead">
+      <div class="mast-image" aria-hidden="true"></div>
+      <h1 class="mast-date">Élections 2026</h1>
+      <p class="mast-sub">Taux de participation estimé</p>
+    </div>
+
+    <div class="countdown" role="timer" aria-label="Temps restant pour voter">
+      <div><b id="cd-h">--</b><span>heures</span></div>
+      <div><b id="cd-m">--</b><span>minutes</span></div>
+      <div><b id="cd-s">--</b><span>secondes</span></div>
+    </div>
+    <p class="cd-label" id="cd-label">Bureaux ouverts de 08:00 à 19:00</p>
+
+    <div class="scene">
+      <div class="drop" aria-hidden="true"><div class="sheet"></div></div>
+
+      <div class="urn">
+        <div class="urn-top"><i></i></div>
+        <div class="urn-band"></div>
+        <div class="urn-body">
+          <p class="urn-tag" id="tag" hidden>Exemple</p>
+          <p class="urn-line">INSCRITS : <b id="inscrits">15&#8239;801&#8239;162</b></p>
+          <p class="urn-line">VOTANTS : <b id="votants" class="wait">en attente</b></p>
+          <div class="hero-num" id="estimate" aria-live="polite">--,-&nbsp;%</div>
+          <p class="urn-delta" id="delta">Rappel : 50,18 % en 2021</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <figure aria-labelledby="t1">
+    <div class="poster">
+      <h2 class="poster-title reveal" id="t1">Taux de participation aux élections législatives depuis 2002</h2>
+      <div class="poster-head">
+        <p class="poster-sub reveal">Une participation en dents de scie. Depuis 2002, le taux de participation n’a suivi aucune tendance nette. Il oscille entre 37 % et 52 %.</p>
+      </div>
+
+      <div class="pcols" role="img" aria-label="Histogramme de la participation : 51,61 % en 2002, 37,00 % en 2007, 45,40 % en 2011, 42,29 % en 2016, 50,18 % en 2021, et une estimation d’exemple de 23 % pour 2026.">
+        <div class="pcol" style="--h:86.02%"><span class="pyear">2002</span><div class="pbar"><span>51,61%</span></div></div>
+        <div class="pcol" style="--h:61.67%"><span class="pyear">2007</span><div class="pbar"><span>37,00%</span></div></div>
+        <div class="pcol" style="--h:75.67%"><span class="pyear">2011</span><div class="pbar"><span>45,40%</span></div></div>
+        <div class="pcol" style="--h:70.48%"><span class="pyear">2016</span><div class="pbar"><span>42,29%</span></div></div>
+        <div class="pcol" style="--h:83.63%"><span class="pyear">2021</span><div class="pbar"><span>50,18%</span></div></div>
+        <div class="pcol est" id="est-col" style="--h:38.33%">
+          <span class="pyear">2026</span>
+          <div class="pbar"><span id="est-val">23,00%</span></div>
+          <div class="pghost"><b>?</b></div>
+        </div>
+      </div>
+      <p class="poster-src">Source : ministère de l’Intérieur ; données de participation fournies</p>
+      <p class="poster-src"><strong>Ce que montrent les chiffres.</strong> Cinq scrutins, aucune pente. La participation perd près de 15 points entre 2002 et 2007, en regagne 8 en 2011, repart à la baisse en 2016 (−3 points), puis remonte de presque 8 points en 2021.</p>
+    </div>
+  </figure>
+
+  <figure class="agefig" aria-labelledby="t3">
+    <p class="age-title reveal" id="t3">Répartition de la population et des inscrits par tranche d’âge, 2026</p>
+    <div class="age-intro"><h2 class="age-intro-title">Un corps électoral plus âgé que la population</h2> <p class="age-intro-text">Sur 100 inscrits, 60 ont 45 ans ou plus, et 19 seulement ont moins de 35 ans. Les 60 ans et plus pèsent à eux seuls 29 % du corps électoral, contre 13,8 % de la population nationale. À l’autre bout, les 18-24 ans représentent 4 % des inscrits.</p></div>
+
+    <ul class="legend">
+      <li><i class="sw pop"></i>Population<sup>1</sup></li>
+      <li><i class="sw ins"></i>Inscrits</li>
+    </ul>
+
+    <div class="agecols" role="img" aria-label="Part de chaque tranche d’âge. Population nationale : 18-24 ans 7,3 %, 25-34 ans 14,3 %, 35-44 ans 14,1 %, 45-54 ans 11,8 %, 55-59 ans 4,8 %, 60 ans et plus 13,8 %, reste de la population 33,9 %. Inscrits en 2026 : 4 %, 15 %, 21 %, 21 %, 10 % et 29 %.">
+        <div class="acolwrap">
+          <div class="acol">
+            <div class="blk top" style="--v:7.3"><span>7,3%</span></div>
+            <div class="blk bot" style="--v:4"><span>4%</span></div>
+          </div>
+          <div class="alabel">18-24</div>
+        </div>
+        <div class="acolwrap">
+          <div class="acol">
+            <div class="blk top" style="--v:14.3"><span>14,3%</span></div>
+            <div class="blk bot" style="--v:15"><span>15%</span></div>
+          </div>
+          <div class="alabel">25-34</div>
+        </div>
+        <div class="acolwrap">
+          <div class="acol">
+            <div class="blk top" style="--v:14.1"><span>14,1%</span></div>
+            <div class="blk bot" style="--v:21"><span>21%</span></div>
+          </div>
+          <div class="alabel">35-44</div>
+        </div>
+        <div class="acolwrap">
+          <div class="acol">
+            <div class="blk top" style="--v:11.8"><span>11,8%</span></div>
+            <div class="blk bot" style="--v:21"><span>21%</span></div>
+          </div>
+          <div class="alabel">45-54</div>
+        </div>
+        <div class="acolwrap">
+          <div class="acol">
+            <div class="blk top" style="--v:4.8"><span>4,8%</span></div>
+            <div class="blk bot" style="--v:10"><span>10%</span></div>
+          </div>
+          <div class="alabel">55-59</div>
+        </div>
+        <div class="acolwrap">
+          <div class="acol">
+            <div class="blk top" style="--v:13.8"><span>13,8%</span></div>
+            <div class="blk bot" style="--v:29"><span>29%</span></div>
+          </div>
+          <div class="alabel">60+</div>
+        </div>
+        <div class="acolwrap">
+          <div class="acol">
+            <div class="blk top hatch" style="--v:33.9"><span>33,9%</span></div>
+            
+          </div>
+          <div class="alabel">Reste<sup>1</sup></div>
+        </div>
+    </div>
+
+    <figcaption class="age-note"><strong>Lecture :</strong> le bloc noir représente la part de chaque tranche d’âge dans la population totale, tandis que le bloc bleu indique sa part parmi les électeurs inscrits. L’échelle est identique, une colonne complète représentant 50 %. La comparaison met notamment en évidence des écarts plus marqués chez les 60 ans et plus et les 18–24 ans.</figcaption>
+  </figure>
+
+  <h2 class="section-title">Participation et représentation : deux écarts à observer</h2>
+  <p class="section-intro">La répartition des inscrits montre une majorité en milieu urbain (55 %), tandis que le milieu rural se caractérise historiquement par une participation électorale plus élevée. Les femmes représentent 46 % des inscrits, contre 36,47 % des candidatures aux 395 sièges de la Chambre des représentants.</p>
+
+  <figure class="splitfig" aria-label="Répartition par sexe et par milieu de résidence">
+    <div class="split-block">
+      <p class="split-title reveal">Répartition par sexe</p>
+      <div class="split">
+        <div class="donutwrap">
+          <svg class="donut" viewBox="0 0 100 100" role="img" aria-label="Anneau : femmes 46 %, hommes 54 %" data-a="46">
+            <circle cx="50" cy="50" r="38" fill="none" stroke="var(--ink)" stroke-width="11"/>
+            <circle class="arc" cx="50" cy="50" r="38" fill="none" stroke="var(--urn-body)" stroke-width="11" stroke-dasharray="109.83 238.76" transform="rotate(-90 50 50)"/>
+          </svg>
+        </div>
+        <div class="split-items">
+          <div class="si"><div><span class="chip blue"></span><span class="si-name">Femmes</span><div class="si-big" data-v="46">46%</div></div></div>
+          <div class="si"><div><span class="chip ink"></span><span class="si-name">Hommes</span><div class="si-big" data-v="54">54%</div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="split-block">
+      <p class="split-title reveal">Répartition par milieu de résidence</p>
+      <div class="split">
+        <div class="donutwrap">
+          <svg class="donut" viewBox="0 0 100 100" role="img" aria-label="Anneau : milieu urbain 55 %, milieu rural 45 %" data-a="55">
+            <circle cx="50" cy="50" r="38" fill="none" stroke="var(--ink)" stroke-width="11"/>
+            <circle class="arc" cx="50" cy="50" r="38" fill="none" stroke="var(--urn-body)" stroke-width="11" stroke-dasharray="131.32 238.76" transform="rotate(-90 50 50)"/>
+          </svg>
+        </div>
+        <div class="split-items">
+          <div class="si"><div><span class="chip blue"></span><span class="si-name">Milieu urbain</span><div class="si-big" data-v="55">55%</div></div></div>
+          <div class="si"><div><span class="chip ink"></span><span class="si-name">Milieu rural</span><div class="si-big" data-v="45">45%</div></div></div>
+        </div>
+      </div>
+    </div>
+
+    <figcaption class="poster-src">Source : ministère de l’Intérieur ; données de participation fournies</figcaption>
+  </figure>
+
+  <h2 class="section-title" id="t-votes">Évolution du nombre de voix par parti entre 2016 et 2021</h2>
+  <p class="section-intro">La comparaison des résultats des élections législatives de 2016 et de 2021 met en évidence des évolutions importantes du nombre de voix obtenues par les principaux partis politiques marocains. En 2021, le RNI a recueilli 2 099 036 voix dans les circonscriptions locales, contre 558 875 en 2016, tandis que le PJD est passé de 1 571 659 à 322 758 voix. Le PAM a également évolué, passant de 1 205 444 à 1 400 122 voix, et l’Istiqlal de 621 280 à 1 278 420 voix. Ces résultats illustrent des variations significatives du poids électoral des différentes formations entre les deux scrutins, avec des progressions ou des reculs d’ampleur variable selon les partis.</p>
+  <figure aria-labelledby="t-votes">
+    <div class="votes" role="img" aria-label="Résultats des élections législatives : le RNI remporte les élections en 2021">
+      <div class="votes-poster-banner" aria-label="Bannière de résultats électoraux">
+        <img src="https://res.cloudinary.com/obksyol2/image/upload/v1790081770/Homme_souriant_en_style_gravure.png" alt="">
+        <div class="votes-poster-copy">
+          <span class="votes-poster-kicker">Élections 2021</span>
+          <strong class="votes-poster-title">Le RNI remporte les élections législatives</strong>
+        </div>
+      </div>
+      <div class="votes-head"><div class="votes-legend"><span><i class="votes-swatch y21"></i>2021</span><span><i class="votes-swatch y16"></i>2016</span></div></div>
+      <div class="votes-scroll"><div class="votes-grid">
+        <div class="vote-party-col"><div class="vote-pair"><div class="vote-bar y21" data-value="2 099 036" style="--h21:252px;--h16:67px">2 099 036</div><div class="vote-bar y16 value-top" data-value="558 875" style="--h21:252px;--h16:67px">558 875</div></div><span class="vote-label" tabindex="0" data-party="Rassemblement National des Indépendants">RNI</span></div>
+        <div class="vote-party-col"><div class="vote-pair"><div class="vote-bar y21" data-value="1 400 122" style="--h21:168px;--h16:145px">1 400 122</div><div class="vote-bar y16" data-value="1 205 444" style="--h21:168px;--h16:145px">1 205 444</div></div><span class="vote-label" tabindex="0" data-party="Parti Authenticité et Modernité">PAM</span></div>
+        <div class="vote-party-col"><div class="vote-pair"><div class="vote-bar y21" data-value="1 278 420" style="--h21:154px;--h16:75px">1 278 420</div><div class="vote-bar y16 value-top" data-value="621 280" style="--h21:154px;--h16:75px">621 280</div></div><span class="vote-label" tabindex="0" data-party="Parti de l'Istiqlal">PI</span></div>
+        <div class="vote-party-col"><div class="vote-pair"><div class="vote-bar y21 value-top" data-value="598 293" style="--h21:72px;--h16:44px">598 293</div><div class="vote-bar y16 value-top" data-value="367 622" style="--h21:72px;--h16:44px">367 622</div></div><span class="vote-label" tabindex="0" data-party="Union Socialiste des Forces Populaires">USFP</span></div>
+        <div class="vote-party-col"><div class="vote-pair"><div class="vote-bar y21 value-top" data-value="534 292" style="--h21:64px;--h16:49px">534 292</div><div class="vote-bar y16 value-top" data-value="409 085" style="--h21:64px;--h16:49px">409 085</div></div><span class="vote-label" tabindex="0" data-party="Mouvement Populaire">MP</span></div>
+        <div class="vote-party-col"><div class="vote-pair"><div class="vote-bar y21 value-top" data-value="418 679" style="--h21:50px;--h16:32px">418 679</div><div class="vote-bar y16 value-top" data-value="268 813" style="--h21:50px;--h16:32px">268 813</div></div><span class="vote-label" tabindex="0" data-party="Union Constitutionnelle">UC</span></div>
+        <div class="vote-party-col"><div class="vote-pair"><div class="vote-bar y21 value-top" data-value="387 869" style="--h21:47px;--h16:34px">387 869</div><div class="vote-bar y16 value-top" data-value="279 226" style="--h21:47px;--h16:34px">279 226</div></div><span class="vote-label" tabindex="0" data-party="Parti du Progrès et du Socialisme">PPS</span></div>
+        <div class="vote-party-col"><div class="vote-pair"><div class="vote-bar y21 value-top" data-value="322 758" style="--h21:39px;--h16:189px">322 758</div><div class="vote-bar y16" data-value="1 571 659" style="--h21:39px;--h16:189px">1 571 659</div></div><span class="vote-label" tabindex="0" data-party="Parti de la Justice et du Développement">PJD</span></div>
+        <div class="vote-party-col"><div class="vote-pair"><div class="vote-bar y21 value-top" data-value="126 399" style="--h21:15px;--h16:9px">126 399</div><div class="vote-bar y16 value-top" data-value="74 472" style="--h21:15px;--h16:9px">74 472</div></div><span class="vote-label" tabindex="0" data-party="Mouvement Démocratique et Social">MDS</span></div>
+        <div class="vote-party-col"><div class="vote-pair"><div class="vote-bar y21 value-top" data-value="83 130" style="--h21:10px;--h16:17px">83 130</div><div class="vote-bar y16 value-top" data-value="139 793" style="--h21:10px;--h16:17px">139 793</div></div><span class="vote-label">AGD</span></div>
+        <div class="vote-party-col"><div class="vote-pair"><div class="vote-bar y21 value-top" data-value="70 218" style="--h21:8px;--h16:6px">70 218</div><div class="vote-bar y16 value-top" data-value="51 945" style="--h21:8px;--h16:6px">51 945</div></div><span class="vote-label" tabindex="0" data-party="Front des Forces Démocratiques">FFD</span></div>
+        <div class="vote-party-col"><div class="vote-pair"><div class="vote-bar y21 value-top" data-value="60 313" style="--h21:7px;--h16:2px">60 313</div><div class="vote-bar y16 value-top" data-value="–" style="--h21:7px;--h16:2px">–</div></div><span class="vote-label" tabindex="0" data-party="Alliance de la Gauche">PSU</span></div>
+        <div class="vote-party-col"><div class="vote-pair"><div class="vote-bar y21 value-top" data-value="208 976" style="--h21:25px;--h16:29px">208 976</div><div class="vote-bar y16 value-top" data-value="242 338" style="--h21:25px;--h16:29px">242 338</div></div><span class="vote-label">Autres</span></div>
+      </div></div>
+    </div>
+    <figcaption class="poster-src">Source : ministère de l’Intérieur ; données de participation fournies</figcaption>
+  </figure>
+
+  <h2 class="section-title">Comparaison des sièges parlementaires par parti 2016 vs 2021</h2>
+  <p class="section-intro">Le récit de 2021 tient en trois lignes. Le PJD, premier en 2016 avec 125 sièges, tombe à 13. Le RNI passe de 37 à 102 sièges et prend la tête. Le RNI, le PAM et l’Istiqlal totalisent à eux trois 269 sièges, soit 68 % de la Chambre.</p>
+
+  <figure aria-label="Sièges à la Chambre des représentants, par parti : comparaison entre 2016 et 2021">
+
+    <div class="seats">
+      <div class="row head">
+        <span>Parti</span><span class="n">2021</span><span class="n">2016</span>
+        <div class="axis"><span style="left:63.2%;transform:translateX(-50%)">Variation</span></div>
+      </div>
+
+      <div class="row"><span class="name" tabindex="0" data-party="Rassemblement National des Indépendants">RNI</span><span class="n">102</span><span class="n dim">37</span>
+        <div class="track"><i class="up" style="width:34.2%"></i><em class="up in" style="right:calc(100% - 97.4% + 6px)">+65</em></div></div>
+      <div class="row"><span class="name" tabindex="0" data-party="Parti Authenticité et Modernité">PAM</span><span class="n">86</span><span class="n dim">102</span>
+        <div class="track"><i class="down" style="left:54.8%;width:8.4%"></i><em class="down" style="right:calc(100% - 54.8% + 6px)">−16</em></div></div>
+      <div class="row"><span class="name" tabindex="0" data-party="Parti de l'Istiqlal">PI</span><span class="n">81</span><span class="n dim">46</span>
+        <div class="track"><i class="up" style="width:18.4%"></i><em class="up" style="left:calc(63.2% + 18.4% + 6px)">+35</em></div></div>
+      <div class="row"><span class="name" tabindex="0" data-party="Union Socialiste des Forces Populaires">USFP</span><span class="n">35</span><span class="n dim">20</span>
+        <div class="track"><i class="up" style="width:7.9%"></i><em class="up" style="left:calc(63.2% + 7.9% + 6px)">+15</em></div></div>
+      <div class="row"><span class="name" tabindex="0" data-party="Mouvement Populaire">MP</span><span class="n">29</span><span class="n dim">27</span>
+        <div class="track"><i class="up" style="width:1.1%"></i><em class="up" style="left:calc(63.2% + 1.1% + 6px)">+2</em></div></div>
+      <div class="row"><span class="name" tabindex="0" data-party="Parti du Progrès et du Socialisme">PPS</span><span class="n">21</span><span class="n dim">12</span>
+        <div class="track"><i class="up" style="width:4.7%"></i><em class="up" style="left:calc(63.2% + 4.7% + 6px)">+9</em></div></div>
+      <div class="row"><span class="name" tabindex="0" data-party="Union Constitutionnelle">UC</span><span class="n">18</span><span class="n dim">19</span>
+        <div class="track"><i class="down" style="left:62.7%;width:0.5%"></i><em class="down" style="right:calc(100% - 62.7% + 6px)">−1</em></div></div>
+      <div class="row"><span class="name" tabindex="0" data-party="Parti de la Justice et du Développement">PJD</span><span class="n">13</span><span class="n dim">125</span>
+        <div class="track"><i class="down" style="left:4.3%;width:58.9%"></i><em class="down in" style="left:calc(4.3% + 8px)">−112</em></div></div>
+      <div class="row"><span class="name" tabindex="0" data-party="Mouvement Démocratique et Social">MDS</span><span class="n">5</span><span class="n dim">3</span>
+        <div class="track"><i class="up" style="width:1.1%"></i><em class="up" style="left:calc(63.2% + 1.1% + 6px)">+2</em></div></div>
+      <div class="row"><span class="name" tabindex="0" data-party="Front des Forces Démocratiques">FFD</span><span class="n">3</span><span class="n dim">–</span>
+        <div class="track"><i class="up" style="width:1.6%"></i><em class="up" style="left:calc(63.2% + 1.6% + 6px)">+3</em></div></div>
+      <div class="row"><span class="name" tabindex="0" data-party="Parti de l'Action">AGD</span><span class="n">1</span><span class="n dim">2</span>
+        <div class="track"><i class="down" style="left:62.7%;width:0.5%"></i><em class="down" style="right:calc(100% - 62.7% + 6px)">−1</em></div></div>
+      <div class="row"><span class="name" tabindex="0" data-party="Alliance de la Gauche">PSU</span><span class="n">1</span><span class="n dim">–</span>
+        <div class="track"><i class="up" style="width:0.5%"></i><em class="up" style="left:calc(63.2% + 0.5% + 6px)">+1</em></div></div>
+      <div class="row"><span class="name" tabindex="0" data-party="Parti de l'Unité et de la Démocratie">PUD</span><span class="n dim">–</span><span class="n">1</span>
+        <div class="track"><i class="down" style="left:62.7%;width:0.5%"></i><em class="down" style="right:calc(100% - 62.7% + 6px)">−1</em></div></div>
+      <div class="row"><span class="name" tabindex="0" data-party="Parti des Verts Marocains">PGVM</span><span class="n dim">–</span><span class="n">1</span>
+        <div class="track"><i class="down" style="left:62.7%;width:0.5%"></i><em class="down" style="right:calc(100% - 62.7% + 6px)">−1</em></div></div>
+    </div>
+
+    <figcaption>Quatorze partis affichés. Chiffres des législatives 2021 et 2016 : résultats du ministère de l’Intérieur.</figcaption>
+  </figure>
+
+  <p class="note caution-note"><b>À lire avec prudence :</b> les taux de participation et résultats affichés en temps réel sont provisoires et peuvent être corrigés pendant la vérification et la consolidation des données. Au Maroc, seuls les chiffres publiés et validés par le <a href="https://www.interieur.gov.ma/" target="_blank" rel="noopener">Ministère de l’Intérieur</a>, le <a href="https://maroc.ma/fr/elections-legislatives-marocaines-2026" target="_blank" rel="noopener">Portail national Maroc.ma</a> et la <a href="https://www.courconstitutionnelle.ma/" target="_blank" rel="noopener">Cour constitutionnelle</a> sont définitifs.</p>
+
+</main>
+<footer class="site-footer">
+  <div class="footer-inner">
+    <img class="footer-avatar" src="https://lh3.googleusercontent.com/a/ACg8ocLT4prCSvBZz87zSVO58O3sY4gQvKkrG1xritY10xknxebI-Ovp=s120-c" alt="Portrait de Mohamed Baghdad">
+    <div>
+      <p class="footer-name">Mohamed Baghdad</p>
+      <p class="footer-copy">Analyse et visualisation des données électorales marocaines.<br><a href="mailto:mohamed.barhdad@gmail.com">mohamed.barhdad@gmail.com</a></p>
+    </div>
+  </div>
+  <p class="footer-rights">© 2026 Mohamed Baghdad — Tous droits réservés. Les contenus, analyses et visualisations de cette page sont protégés et ne peuvent être reproduits sans autorisation.</p>
+</footer>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/app.min.js" defer></script>
+</body>
+</html>

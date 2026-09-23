@@ -1,0 +1,93 @@
+{
+  "description": "Sièges à la Chambre des représentants par parti.",
+  "years": [
+    2021,
+    2016
+  ],
+  "parties": [
+    {
+      "code": "RNI",
+      "name": "Rassemblement National des Indépendants",
+      "2021": 102,
+      "2016": 37
+    },
+    {
+      "code": "PAM",
+      "name": "Parti Authenticité et Modernité",
+      "2021": 86,
+      "2016": 102
+    },
+    {
+      "code": "PI",
+      "name": "Parti de l'Istiqlal",
+      "2021": 81,
+      "2016": 46
+    },
+    {
+      "code": "USFP",
+      "name": "Union Socialiste des Forces Populaires",
+      "2021": 35,
+      "2016": 20
+    },
+    {
+      "code": "MP",
+      "name": "Mouvement Populaire",
+      "2021": 29,
+      "2016": 27
+    },
+    {
+      "code": "PPS",
+      "name": "Parti du Progrès et du Socialisme",
+      "2021": 21,
+      "2016": 12
+    },
+    {
+      "code": "UC",
+      "name": "Union Constitutionnelle",
+      "2021": 18,
+      "2016": 19
+    },
+    {
+      "code": "PJD",
+      "name": "Parti de la Justice et du Développement",
+      "2021": 13,
+      "2016": 125
+    },
+    {
+      "code": "MDS",
+      "name": "Mouvement Démocratique et Social",
+      "2021": 5,
+      "2016": 3
+    },
+    {
+      "code": "FFD",
+      "name": "Front des Forces Démocratiques",
+      "2021": 3,
+      "2016": null
+    },
+    {
+      "code": "AGD",
+      "name": "Parti de l’Action",
+      "2021": 1,
+      "2016": 2
+    },
+    {
+      "code": "PSU",
+      "name": "Alliance de la Gauche",
+      "2021": 1,
+      "2016": null
+    },
+    {
+      "code": "PUD",
+      "name": "Parti de l’Unité et de la Démocratie",
+      "2021": null,
+      "2016": 1
+    },
+    {
+      "code": "PGVM",
+      "name": "Parti des Verts Marocains",
+      "2021": null,
+      "2016": 1
+    }
+  ]
+}

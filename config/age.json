@@ -1,0 +1,41 @@
+{
+  "description": "Répartition de la population et des inscrits par tranche d’âge.",
+  "categories": [
+    {
+      "label": "18-24",
+      "population": 7.3,
+      "inscrits": 4.0
+    },
+    {
+      "label": "25-34",
+      "population": 14.3,
+      "inscrits": 15.0
+    },
+    {
+      "label": "35-44",
+      "population": 14.1,
+      "inscrits": 21.0
+    },
+    {
+      "label": "45-54",
+      "population": 11.8,
+      "inscrits": 21.0
+    },
+    {
+      "label": "55-59",
+      "population": 4.8,
+      "inscrits": 10.0
+    },
+    {
+      "label": "60+",
+      "population": 13.8,
+      "inscrits": 29.0
+    },
+    {
+      "label": "Reste",
+      "population": 33.9,
+      "inscrits": null,
+      "footnote": true
+    }
+  ]
+}

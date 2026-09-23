@@ -1,0 +1,23 @@
+{
+  "description": "Répartition par sexe et par milieu de résidence.",
+  "sex": [
+    {
+      "label": "Femmes",
+      "value": 46
+    },
+    {
+      "label": "Hommes",
+      "value": 54
+    }
+  ],
+  "residence": [
+    {
+      "label": "Milieu urbain",
+      "value": 55
+    },
+    {
+      "label": "Milieu rural",
+      "value": 45
+    }
+  ]
+}
